@@ -1,0 +1,149 @@
+<html>
+	<title>
+		Principal
+	</title>
+
+	<head>
+	
+	<script src="jquery-1.10.0.min.js">
+	</script>
+
+	<script>
+		$(document).ready(function()
+		{
+			$("#flip").click(function()
+			{
+				$("#panel").slideToggle("slow");
+				
+				$("#panel1").slideToggle("slow");
+
+				$("#panel2").slideToggle("slow");
+
+				$("#panel3").slideToggle("slow");
+			});
+		});
+
+	</script>
+
+	<style type="text/css">
+		#panel,#flip,#panel1,#panel2,#panel3
+		{
+			padding:3px;
+			text-align:center;
+			width:196px;
+			height:30px;
+			background-color:F5C592;
+			border:solid 1px D5762E;
+			position:absolute;
+			left:950px;
+			top:190px;
+		}
+	
+		#panel
+		{
+			width:186px;
+			height:15px;
+			padding:8px;
+			display:none;
+			position:absolute;
+			left:950px;
+			top:228px;
+			text-align:left;
+		}
+
+		#panel1
+		{
+			width:186px;
+			height:15px;
+			padding:8px;
+			display:none;
+			position:absolute;
+			left:950px;
+			top:260px;
+			text-align:left;
+		}
+
+		#panel2
+		{
+			width:186px;
+			height:15px;
+			padding:8px;
+			display:none;
+			position:absolute;
+			left:950px;
+			top:290px;
+			text-align:left;
+		}
+
+
+		#panel3
+		{
+			width:186px;
+			height:15px;
+			padding:8px;
+			display:none;
+			position:absolute;
+			left:950px;
+			top:320px;
+			text-align:left;
+		}
+	</style>
+			
+	<style>
+		p.one
+		{
+			border-style:solid;
+			border-color:D5762E;
+		}
+		
+		img
+		{
+			opacity:0.4;
+			filter:alpha(opacity=40);
+		}
+	
+		img
+		{
+			position:absolute;
+			left:400px;
+			top:150px;
+		}
+
+		h1
+		{
+			text-shadow: 10px 4px 5px #C41616;
+		}
+
+		@font-face
+		{
+			font-family: myFirstFont;
+			src: url(sansation_light.woff);
+		}
+
+		div
+		{
+			font-family:myFirstFont;
+		}
+		a:link 
+		{
+			text-align:right;
+			text-decoration:none;
+		}
+		a:hover 
+		{
+			text-align:right;
+			text-decoration:underline;	
+		}
+	</style>
+
+	</head>
+
+	<body background="vintage2.jpg">
+	<h1><div align="center"><font size=15 color="D5762E"><i><p class="one">ANDARIEGA</p></i></font></div></h1>
+	<div id="flip">Opciones que deseas realizar:</div>
+	<div id="panel"><a class="one" href="registro_DetVenta.html" target="_self"><span style="cursor:progress">Registrar ventas</span></a></div>
+	<div id="panel1"><a class="one" href="registro_cliente.html" target="_self"><span style="cursor:progress">Registrar clientes</span></a></div>
+	</body>
+		<img src="andariega.jpg" width="500" height="490">
+
+</html>

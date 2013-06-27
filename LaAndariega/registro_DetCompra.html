@@ -1,0 +1,190 @@
+<html>
+	<title>
+		Reg_DetCompras
+	</title>
+	<style>
+	#Detalle_Compra
+	{
+		font-family:"Trebuchet MS", Arial, Helvica, sans-serif;
+		width:30%;
+	}
+
+	#Detalle_Compra td, #Detalle_Compra th
+	{
+		font-size:1em;
+		padding:3px 7px 6px 8px;
+	}
+
+	#Detalle_Compras th
+	{
+		font-size:1.1em;
+		text-align:left;
+		padding-top:5px;
+		padding-bottom:4x;
+		background-color:#FE9A2E
+		color:#ffffff;
+	}
+
+	#Detalle_Compras tr.alt td
+	{
+		color:#000000;
+		background-color:#EAF2D3;
+	}
+
+	img
+	{
+		opacity:0.4;
+		filter:alpha(opacity=100);
+	}
+	
+	img:hover
+	{
+		opacity:1.0;
+		filter:alpha(opacity=100);
+	}
+	
+	img
+	{
+		position:absolute;
+		left:10px;
+		top:250px;
+	}
+	
+	p.one
+	{
+		border-style:solid;
+		border-color:D5762E;
+	}
+
+	h1
+	{
+		text-shadow: 10px 4px 5px #C41616;
+	}
+
+	a.one:link 
+	{
+		color:#F7BE81
+	}
+
+	a.one:visited
+	{
+		color:#FAAC58
+	}
+
+	a.one:hover
+	{
+		color:#FAAC58
+	}
+
+	p.italic
+	{
+		font-style:italic;
+	}
+
+	p.thick 
+	{
+		font-weight:bold;
+	}
+
+	@font-face
+	{
+		font-family: myFirstFont;
+		src: url(sansation_light.woff);	
+	}
+
+	div
+	{
+		font-family:myFirstFont;
+	}
+
+	</style>
+
+	<style>
+		a:link,a:visited
+		{
+			display:block;
+			font-weight:bold;
+			color:D5762E;
+			background-color:D5762E;
+			width:120px;
+			text-align:center;	
+			padding:4px;
+			text-decoration:none;
+		}
+
+		a:hover,a:active
+		{
+			background-color:#991E1E;
+			text-decoration:underline;
+		}
+
+		.right
+		{
+			position:absolute;
+			left:1200px;
+			top:260px;
+		}
+
+
+		.right1
+		{
+			position:absolute;
+			left:1200px;
+			top:300px;
+		}
+
+		.right2
+		{
+			position:absolute;
+			left:1200px;
+			top:340px;
+		}
+
+	</style>
+	
+	<body background = "vintage2.jpg">
+	<h1><div align="center"><font size=15 color="D5762E"><i><p class="one">ANDARIEGA</p></i></font></div></h1>
+	<br>
+	<br>
+	<div align="center"><font size=6 color="#FE9A2E"><i> Detalle de Compras </i></font></div>
+	<br>
+	<br>
+	<table align="center" id="Detalle_Compra">
+		<tr>
+			<th><font color=#FE9A2E>Proveedor</font></th>
+			<th><font color=#FE9A2E>Producto</font></th>
+			<th><font color=#FE9A2E>Cantidad</font></th>
+			<th><font color=#FE9A2E>Descripcion</font></th>
+			<th><font color=#FE9A2E>Costo Unitario</font></th>
+		</tr>
+
+		<tr>
+			<td><input type="proveedor" name="proveedor"/></td>
+			<td><input type="producto" name="producto"/></td>
+			<td><input type="cantidad" name="cantidad"/></td>
+			<td><input type="descripcion" name="descripcion"/></td>
+			<td><input type="costo_unitario" name="costo_unitario"/></td>
+		</tr>
+
+
+		<tr>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td><input type="submit" value="Registrar" /></td>
+		</tr>
+	</table>
+		
+		<aside>
+			<p class="italic" class="thick"><div class="right"><font size=3><b><a class="one" href="modificar_compra.html" target="_self"><span style="cursor:progress">Modificar compra</span></a></b></font></div></p>
+			<p class="italic" class="thick"><div class="right1"><font size=3><b><a class="one" href="eliminar_compra.html" target="_self"><span style="cursor:progress">Eliminar compra</span></a></b></font></div></p>
+			<p class="italic" class="thick"><div class="right2"><font size=3><b><a class="one" href="principal.html" target="_self"><span style="cursor:progress">Página Principal</span></a></b></font></div></p>
+
+		</aside>
+		
+	</body>	
+	<left>
+		<img src="andariega.jpg" width="230" height="220">
+	</left>
+</html>
